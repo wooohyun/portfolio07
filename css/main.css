@@ -1,0 +1,122 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Wrap {
+    width: 1900px;
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb ul {
+    display: flex;
+    gap: 40px;
+}
+
+.gnb ul li {
+    font-weight: 500;
+}
+
+.gnb ul .icon {
+    display: flex;
+    gap: 20px;
+}
+
+.main_visual .container {
+    width: 1900px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.slide_txt {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.slide_txt h2 {
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 1.45em;
+    margin: 0 0 5px 0;
+}
+
+.slide_txt p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.45em;
+    margin: 0 0 20px 0;
+}
+
+.slide_txt button {
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px;
+    border: 1px solid #000;
+    background: none;
+    border-radius: 50px;
+    line-height: 1.45em;
+    height: 40px;
+    font-size: 15px;
+}
+
+.slide_txt button:hover {
+    background: #000;
+    color: #fff;
+}
+
+.slide_txt .watch_buds {
+    margin: 0 0 20px 0;
+}
+
+.slide_txt .btn_flex {
+    display: flex;
+}
+
+.swiper-slide .white {
+    color: #fff;
+}
+
+.swiper-slide .white button {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.swiper-slide .white button:hover {
+    border: 1px solid #000;
+}
